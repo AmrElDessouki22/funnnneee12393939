@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useNotes } from '@/contexts/NotesContext';
 import Input from '@/components/ui/Input';
-import Button from '@/components/ui/Button';
+import Button from '../ui/Button';
 
 const NoteForm = () => {
   const [title, setTitle] = useState('');
